@@ -44,9 +44,27 @@ alert('Login canceled')
 else {
   alert("i dont know you");
 }
-result = (a + b < 4) ? 'Мало' : 'Много';*/
- 
+result = (a + b < 4) ? 'Мало' : 'Много';
+
 var message = (login=="VASIA") ? "PRIVET":
 (login=="DIREKTOR") ? "DOBRII BE4eR":
 (login=="") ? "net logina": "";
-alert(message);
+alert(message);*/
+
+
+var age = prompt ("SKOLKO LET?","");
+
+if (age<14||age>90){
+  alert("HE VHODIT v diapazon 14-90");
+}
+else {
+  alert("VHODIT v diapazon 14-90");
+}
+
+if (age>=14&&age<=90);
+
+if (age<14||age>90);
+
+if(!age<90||!age>14);
+
+if(!(age<=90&&age>=14));
